@@ -5,10 +5,8 @@ export default defineConfig({
   token: process.env.TINA_TOKEN || "",
   branch: process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF || "main",
   media: {
-    tina: {
-      mediaRoot: "public/images",
-      publicFolder: "images",
-    },
+    mediaRoot: "public/images",
+    publicFolder: "images",
   },
   schema: {
     collections: [
