@@ -107,9 +107,13 @@ houseplus-website/
 
 ## Contact
 Attn: Jack
+
 E-mail: jack@houseplus-ch.com
+
 Phone/WhatsApp:+861557811943 Copyright © 2026 House Plus Ltd
+
 Website: https://www.houseplus-ch.com
+
 https://wa.me/c/8615578119543
 
 
