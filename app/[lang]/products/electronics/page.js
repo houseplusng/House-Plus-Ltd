@@ -1,5 +1,6 @@
 import { translations } from '@/lib/i18n';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export async function generateMetadata({ params }) {
   const { lang } = params;
@@ -14,6 +15,7 @@ export async function generateMetadata({ params }) {
 export default function ElectronicsPage({ params }) {
   const { lang } = params;
   const t = translations[lang]?.products?.electronics || translations.en.products.electronics;
+  const dir = lang === 'ar' ? 'rtl' : 'ltr';
   
   return (
     <>
@@ -24,24 +26,39 @@ export default function ElectronicsPage({ params }) {
         </div>
       </div>
       
+      {/* 产品主图 */}
+      <div className="container-custom py-8">
+        <div className="relative w-full h-96 rounded-xl overflow-hidden shadow-lg">
+          <Image
+            src="/images/products/electronics.jpg"
+            alt={t.title}
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+      </div>
+      
       <section className="py-16">
         <div className="container-custom">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-2xl font-bold mb-4">
+              <h2 className={`text-2xl font-bold mb-4 ${dir === 'rtl' ? 'text-right' : ''}`}>
                 {lang === 'en' ? 'Product Features' : lang === 'fr' ? 'Caractéristiques' : lang === 'es' ? 'Características' : 'مميزات المنتج'}
               </h2>
-              <ul className="space-y-3 text-gray-600">
+              <ul className={`space-y-3 text-gray-600 ${dir === 'rtl' ? 'text-right' : ''}`}>
                 {t.keyProducts.split(',').map((product, i) => (
                   <li key={i} className="flex items-center gap-2">
-                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-primary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     {product.trim()}
                   </li>
                 ))}
               </ul>
-              <p className="mt-6 text-gray-600">{t.longDescription}</p>
+              <p className={`mt-6 text-gray-600 leading-relaxed ${dir === 'rtl' ? 'text-right' : ''}`}>
+                {t.longDescription}
+              </p>
               <Link
                 href={`/${lang}/contact`}
                 className="inline-block mt-8 btn-primary"
@@ -50,9 +67,14 @@ export default function ElectronicsPage({ params }) {
               </Link>
             </div>
             <div className="bg-gray-100 rounded-2xl p-8 text-center">
-              <svg className="w-full h-64 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
+              <div className="relative w-full h-64">
+                <Image
+                  src="/images/products/electronics.jpg"
+                  alt={t.title}
+                  fill
+                  className="object-contain"
+                />
+              </div>
               <p className="mt-4 text-gray-500">{t.title} {lang === 'en' ? 'Showcase' : lang === 'fr' ? 'Présentation' : lang === 'es' ? 'Exhibición' : 'عرض'}</p>
             </div>
           </div>
