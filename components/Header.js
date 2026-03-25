@@ -71,6 +71,7 @@ export default function Header() {
               <li><Link href={`/${currentLang}`} className="hover:text-primary transition">{t.home}</Link></li>
               <li><Link href={`/${currentLang}/products`} className="hover:text-primary transition">{t.products}</Link></li>
               <li><Link href={`/${currentLang}/about`} className="hover:text-primary transition">{t.about}</Link></li>
+              <li><Link href={`/${currentLang}/blog`} className="hover:text-primary transition">{t.blog}</Link></li>
               <li><Link href={`/${currentLang}/contact`} className="hover:text-primary transition">{t.contact}</Link></li>
             </ul>
           </nav>
@@ -140,6 +141,7 @@ export default function Header() {
               <li><Link href={`/${currentLang}`} className="block py-2 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>{t.home}</Link></li>
               <li><Link href={`/${currentLang}/products`} className="block py-2 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>{t.products}</Link></li>
               <li><Link href={`/${currentLang}/about`} className="block py-2 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>{t.about}</Link></li>
+              <li><Link href={`/${currentLang}/blog`} className="block py-2 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>{t.blog}</Link></li>
               <li><Link href={`/${currentLang}/contact`} className="block py-2 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>{t.contact}</Link></li>
               <li><Link href={`/${currentLang}/contact`} className="btn-primary text-center block" onClick={() => setIsMenuOpen(false)}>{getCtaText()}</Link></li>
             </ul>
