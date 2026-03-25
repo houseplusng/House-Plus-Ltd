@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "destination": "/en",
+      "statusCode": 308
+    },
+    {
       "source": "/about",
       "destination": "/en/about",
       "statusCode": 308
@@ -11,18 +16,48 @@
       "statusCode": 308
     },
     {
+      "source": "/products/appliances",
+      "destination": "/en/products/appliances",
+      "statusCode": 308
+    },
+    {
+      "source": "/products/solar",
+      "destination": "/en/products/solar",
+      "statusCode": 308
+    },
+    {
+      "source": "/products/electronics",
+      "destination": "/en/products/electronics",
+      "statusCode": 308
+    },
+    {
       "source": "/blog",
       "destination": "/en/blog",
       "statusCode": 308
     },
     {
-      "source": "/contact",
-      "destination": "/en/contact",
+      "source": "/blog/house-plus-ltd-news",
+      "destination": "/en/blog/house-plus-ltd-news",
       "statusCode": 308
     },
     {
-      "source": "/",
-      "destination": "/en",
+      "source": "/blog/why-choose-oem-manufacturer-china",
+      "destination": "/en/blog/why-choose-oem-manufacturer-china",
+      "statusCode": 308
+    },
+    {
+      "source": "/blog/solar-energy-trends-2025",
+      "destination": "/en/blog/solar-energy-trends-2025",
+      "statusCode": 308
+    },
+    {
+      "source": "/blog/smart-home-appliances-guide",
+      "destination": "/en/blog/smart-home-appliances-guide",
+      "statusCode": 308
+    },
+    {
+      "source": "/contact",
+      "destination": "/en/contact",
       "statusCode": 308
     }
   ]
