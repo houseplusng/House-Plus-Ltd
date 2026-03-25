@@ -1,0 +1,29 @@
+{
+  "redirects": [
+    {
+      "source": "/about",
+      "destination": "/en/about",
+      "statusCode": 308
+    },
+    {
+      "source": "/products",
+      "destination": "/en/products",
+      "statusCode": 308
+    },
+    {
+      "source": "/blog",
+      "destination": "/en/blog",
+      "statusCode": 308
+    },
+    {
+      "source": "/contact",
+      "destination": "/en/contact",
+      "statusCode": 308
+    },
+    {
+      "source": "/",
+      "destination": "/en",
+      "statusCode": 308
+    }
+  ]
+}
