@@ -5,24 +5,6 @@ import { usePathname } from 'next/navigation';
 import { translations } from '@/lib/i18n';
 import Image from 'next/image';
 
-const productIcons = [
-  <svg key="appliances" className="w-12 h-12 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-  </svg>,
-  <svg key="solar" className="w-12 h-12 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-  </svg>,
-  <svg key="electronics" className="w-12 h-12 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-  </svg>,
-];
-
-const productImages = {
-  appliances: '/images/products/appliances.jpg',
-  solar: '/images/products/solar.jpg',
-  electronics: '/images/products/electronics.jpg',
-};
-
 export default function Products() {
   const pathname = usePathname();
   const currentLang = pathname.split('/')[1] || 'en';
@@ -32,7 +14,6 @@ export default function Products() {
   const products = [
     { 
       id: 1, 
-      icon: productIcons[0], 
       data: t.appliances, 
       link: `/products/appliances`,
       imageKey: 'appliances',
@@ -40,7 +21,6 @@ export default function Products() {
     },
     { 
       id: 2, 
-      icon: productIcons[1], 
       data: t.solar, 
       link: `/products/solar`,
       imageKey: 'solar',
@@ -48,7 +28,6 @@ export default function Products() {
     },
     { 
       id: 3, 
-      icon: productIcons[2], 
       data: t.electronics, 
       link: `/products/electronics`,
       imageKey: 'electronics',
@@ -65,13 +44,16 @@ export default function Products() {
         <div className={`grid md:grid-cols-2 lg:grid-cols-3 gap-8 ${dir === 'rtl' ? 'lg:grid-flow-dense' : ''}`}>
           {products.map((product) => (
             <article key={product.id} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 group">
-              {/* Product Image Placeholder - replace with actual images */}
+              {/* 产品图片区域 */}
               <div className="relative h-48 bg-gray-100">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
-                  {product.icon}
-                </div>
+                <Image
+                  src={`/images/products/${product.imageKey}.jpg`}
+                  alt={product.data.title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
                 {product.badge && (
-                  <span className="absolute top-3 right-3 bg-primary text-white text-xs px-2 py-1 rounded-full">
+                  <span className="absolute top-3 right-3 bg-primary text-white text-xs px-2 py-1 rounded-full z-10">
                     {product.badge}
                   </span>
                 )}
