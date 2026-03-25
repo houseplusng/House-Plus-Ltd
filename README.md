@@ -14,8 +14,25 @@
 ---
 
 ## 📖 项目简介
+House Plus Ltd Provides consumer electronics (3C goods), solar energy solutions, and household appliances/kitchen products.
+House Plus Ltd专业提供家电、太阳能、3C 电子产品。--消费电子产品+太阳能产品+家用电器/厨房产品。
 
-House Plus Ltd 是一个专业的国际贸易企业官网，展示公司的产品线、OEM/ODM 服务能力，并为全球客户提供便捷的联系渠道。
+House Plus Ltd 是一个专业的国际贸易B2B企业官网，展示公司的产品线、OEM/ODM 服务能力，并为全球客户提供便捷的联系渠道。
+
+House Plus Group Factory (also known as HousePlus Ltd) is a manufacturer and supplier specializing in a broad range of consumer electronics (3C goods), solar energy solutions, and household appliances.
+
+House Plus Product Catalog
+House Plus operates as a one-stop solution provider for the following categories:
+
+House Plus Solar Energy Products: Inverters (MPPT/PWM controllers), portable solar panels, foldable panels, and solar lithium batteries.
+
+House Plus 3C Goods: Memory cards (SD/SSD), Bluetooth headphones/earphones, power banks (including solar variants), and smartwatches.
+
+Kitchen Appliances/Household Appliances: Induction/infrared cookers, breakfast makers, solar fans, and outdoor power supplies.
+
+Kitchen and Home Appliances
+
+House Plus Ltd.
 
 ### 主要功能
 
@@ -87,3 +104,15 @@ houseplus-website/
 ├── postcss.config.js # PostCSS 配置
 ├── .gitignore # Git 忽略文件
 └── README.md # 项目说明
+
+## Contact
+Attn: Jack
+E-mail: jack@houseplus-ch.com
+Phone/WhatsApp:+861557811943 Copyright © 2026 House Plus Ltd
+Website: https://www.houseplus-ch.com
+https://wa.me/c/8615578119543
+
+
+House Plus Ltd Company--Professional Household Appliances & Solar Products & 3C Goods Manufacturer.
+
+
