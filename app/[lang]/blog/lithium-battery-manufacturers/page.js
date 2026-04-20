@@ -1,5 +1,3 @@
-'use client';
-
 export async function generateMetadata({ params }) {
   const { lang } = params;
   
