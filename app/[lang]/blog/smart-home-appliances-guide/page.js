@@ -3,7 +3,7 @@ import Link from 'next/link';
 export async function generateMetadata({ params }) {
   const { lang } = params;
   return {
-    title: `The Ultimate Guide to Smart Home Appliances | House Plus Ltd Blog`,
+    title: `The Ultimate Guide to Smart Home Appliances | HousePlus Ltd Blog`,
     description: 'Learn how smart appliances can improve your daily life and reduce energy consumption.',
   };
 }
@@ -20,7 +20,7 @@ export default function SmartHomePage({ params }) {
         { title: 'What Are Smart Home Appliances?', text: 'Smart home appliances are devices that connect to the internet, allowing remote control, automation, and energy monitoring.' },
         { title: 'Benefits of Smart Appliances', items: ['Energy Efficiency: Smart appliances optimize energy usage, reducing utility bills.', 'Convenience: Control appliances from anywhere using your smartphone.', 'Predictive Maintenance: Receive alerts when maintenance is needed.', 'Integration: Works with voice assistants like Alexa and Google Home.'] },
         { title: 'Popular Smart Appliances', items: ['Smart Air Fryers', 'Smart Vacuum Cleaners', 'Smart Blenders and Food Processors', 'Smart Electric Kettles'] },
-        { title: 'House Plus Ltd Smart Appliances', text: 'Our smart appliances combine innovative design with energy efficiency. All products are CE and RoHS certified.' },
+        { title: 'HousePlus Ltd Smart Appliances', text: 'Our smart appliances combine innovative design with energy efficiency. All products are CE and RoHS certified.' },
       ],
       cta: 'Contact us to learn more about our smart appliance solutions.',
     },
@@ -31,7 +31,7 @@ export default function SmartHomePage({ params }) {
         { title: 'Que sont les appareils électroménagers intelligents ?', text: 'Les appareils électroménagers intelligents se connectent à Internet.' },
         { title: 'Avantages des appareils intelligents', items: ['Efficacité énergétique', 'Commodité', 'Maintenance prédictive', 'Intégration avec assistants vocaux'] },
         { title: 'Appareils intelligents populaires', items: ['Friteuses à air intelligentes', 'Aspirateurs intelligents', 'Blenders intelligents', 'Bouilloires électriques intelligentes'] },
-        { title: 'Appareils intelligents House Plus Ltd', text: 'Nos appareils allient design innovant et efficacité énergétique.' },
+        { title: 'Appareils intelligents HousePlus Ltd', text: 'Nos appareils allient design innovant et efficacité énergétique.' },
       ],
       cta: 'Contactez-nous pour en savoir plus sur nos solutions.',
     },
@@ -42,7 +42,7 @@ export default function SmartHomePage({ params }) {
         { title: '¿Qué son los electrodomésticos inteligentes?', text: 'Son dispositivos que se conectan a internet.' },
         { title: 'Beneficios de los electrodomésticos inteligentes', items: ['Eficiencia energética', 'Comodidad', 'Mantenimiento predictivo', 'Integración con asistentes de voz'] },
         { title: 'Electrodomésticos inteligentes populares', items: ['Freidoras de aire inteligentes', 'Aspiradoras inteligentes', 'Licuadoras inteligentes', 'Hervidores inteligentes'] },
-        { title: 'Electrodomésticos inteligentes de House Plus Ltd', text: 'Nuestros electrodomésticos combinan diseño innovador con eficiencia energética.' },
+        { title: 'Electrodomésticos inteligentes de HousePlus Ltd', text: 'Nuestros electrodomésticos combinan diseño innovador con eficiencia energética.' },
       ],
       cta: 'Contáctenos para conocer más sobre nuestras soluciones.',
     },
