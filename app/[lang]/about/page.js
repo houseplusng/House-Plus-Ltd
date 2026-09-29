@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   const t = translations[lang]?.about || translations.en.about;
   
   return {
-    title: `${t.title} | House Plus Ltd`,
+    title: `${t.title} | HousePlus Ltd`,
     description: t.description,
   };
 }
@@ -16,7 +16,7 @@ export default function AboutPage() {
     <>
       <div className="bg-gradient-to-r from-primary/5 to-secondary/5 py-16">
         <div className="container-custom text-center">
-          <h1 className="text-4xl font-bold mb-4">About House Plus Ltd</h1>
+          <h1 className="text-4xl font-bold mb-4">About HousePlus Ltd</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Learn about our journey, mission, and commitment to quality manufacturing
           </p>
