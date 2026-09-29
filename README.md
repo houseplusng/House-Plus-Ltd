@@ -19,14 +19,14 @@ HousePlus Ltd专业提供家电、太阳能、3C 电子产品。--消费电子�
 
 HousePlus Ltd 是一个专业的国际贸易B2B企业官网，展示公司的产品线、OEM/ODM 服务能力，并为全球客户提供便捷的联系渠道。
 
-House Plus Group Factory (also known as HousePlus Ltd) is a manufacturer and supplier specializing in a broad range of consumer electronics (3C goods), solar energy solutions, and household appliances.
+HousePlus Group Factory (also known as HousePlus Ltd) is a manufacturer and supplier specializing in a broad range of consumer electronics (3C goods), solar energy solutions, and household appliances.
 
-House Plus Product Catalog
-House Plus operates as a one-stop solution provider for the following categories:
+HousePlus Product Catalog
+HousePlus operates as a one-stop solution provider for the following categories:
 
-House Plus Solar Energy Products: Inverters (MPPT/PWM controllers), portable solar panels, foldable panels, and solar lithium batteries.
+HousePlus Solar Energy Products: Inverters (MPPT/PWM controllers), portable solar panels, foldable panels, and solar lithium batteries.
 
-House Plus 3C Goods: Memory cards (SD/SSD), Bluetooth headphones/earphones, power banks (including solar variants), and smartwatches.
+HousePlus 3C Goods: Memory cards (SD/SSD), Bluetooth headphones/earphones, power banks (including solar variants), and smartwatches.
 
 Kitchen Appliances/Household Appliances: Induction/infrared cookers, breakfast makers, solar fans, and outdoor power supplies.
 
