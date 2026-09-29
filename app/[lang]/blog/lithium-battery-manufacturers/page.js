@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   };
   
   return {
-    title: `${titles[lang] || titles.en} | House Plus Ltd Blog`,
+    title: `${titles[lang] || titles.en} | HousePlus Ltd Blog`,
     description: 'Comprehensive guide to the top 5 lithium battery manufacturers for European distributors. Compare features, certifications, and customization options.',
   };
 }
@@ -21,7 +21,7 @@ export default function LithiumBatteryGuidePage({ params }) {
   const content = {
     en: {
       title: 'Top 5 Lithium Battery Manufacturers for European Distributors',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
       date: '2026-04-20',
       intro: 'Europe is rapidly adopting residential and commercial battery storage. With high electricity prices and government incentives, demand for lithium batteries has grown over 40% year-over-year. But for distributors, finding the right manufacturing partner is critical – battery quality, certifications, and supply chain reliability directly impact your reputation.',
       section1: 'What European Distributors Should Look For',
@@ -67,8 +67,8 @@ export default function LithiumBatteryGuidePage({ params }) {
           consideration: 'Battery cells are sourced from third parties.',
         },
         {
-          name: 'House Plus Ltd',
-          hq: 'China (Foshan, Guangdong)',
+          name: 'HousePlus Ltd',
+          hq: 'China (Zhongshan, Guangdong)',
           eu: 'Direct shipping to EU ports; partner warehouses in development',
           strengths: ['Full customization – Logo, enclosure color, BMS parameters, packaging', 'Low MOQ – Ideal for startups and regional distributors', 'Fast sample development – Prototypes in 15-20 working days', 'Certification support – We manage CE, TUV, UN38.3 documentation', '20,000m² smart factory – Scalable production'],
           bestFor: 'European distributors wanting their own brand (private label) with flexible order quantities.',
@@ -82,10 +82,10 @@ export default function LithiumBatteryGuidePage({ params }) {
         'If you want an established brand → BYD or Sungrow',
         'If you need broad inverter compatibility → Pylontech',
         'If price is your primary concern → Growatt',
-        'If you want to build your own brand → House Plus Ltd offers the most flexibility for private labeling',
+        'If you want to build your own brand → HousePlus Ltd offers the most flexibility for private labeling',
       ],
       section5: 'Next Steps',
-      nextSteps: 'House Plus Ltd can provide:',
+      nextSteps: 'HousePlus Ltd can provide:',
       nextStepsList: [
         'Sample batteries for testing with your preferred inverters',
         'CE/TUV-ready documentation for your market registration',
@@ -190,7 +190,7 @@ export default function LithiumBatteryGuidePage({ params }) {
                       <td className="border border-gray-300 p-3">Third-party</td>
                     </tr>
                     <tr className="bg-white">
-                      <td className="border border-gray-300 p-3"><strong>House Plus Ltd</strong></td>
+                      <td className="border border-gray-300 p-3"><strong>HousePlus Ltd</strong></td>
                       <td className="border border-gray-300 p-3">High</td>
                       <td className="border border-gray-300 p-3">Low</td>
                       <td className="border border-gray-300 p-3">Developing</td>
