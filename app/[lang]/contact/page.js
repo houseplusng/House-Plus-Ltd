@@ -6,8 +6,8 @@ export async function generateMetadata({ params }) {
   const t = translations[lang]?.contact || translations.en.contact;
   
   return {
-    title: `Contact Us | House Plus Ltd`,
-    description: `Get in touch with House Plus Ltd for inquiries, quotes, or partnership opportunities. ${t.email} | ${t.phone}`,
+    title: `Contact Us | HousePlus Ltd`,
+    description: `Get in touch with HousePlus Ltd for inquiries, quotes, or partnership opportunities. ${t.email} | ${t.phone}`,
   };
 }
 
