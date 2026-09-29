@@ -36,7 +36,7 @@ export async function generateMetadata({ params }) {
       title: t.title,
       description: t.description,
       url: `${siteUrl}/${lang}`,
-      siteName: 'House Plus Ltd',
+      siteName: 'HousePlus Ltd',
       locale: lang === 'ar' ? 'ar_AE' : `${lang}_${lang === 'en' ? 'US' : lang === 'fr' ? 'FR' : 'ES'}`,
       type: 'website',
       images: [
@@ -55,11 +55,11 @@ export async function generateMetadata({ params }) {
       images: [`${siteUrl}/images/og-image.jpg`],
     },
     geo: {
-      region: 'CN-44',
-      placename: 'Foshan, Guangdong',
-      position: '23.0215;113.1214',
+      region: 'CN-GD',
+      placename: 'Zhongshan, Guangdong',
+      position: '22.5170;113.3925',
     },
-    icbm: '23.0215,113.1214',
+    icbm: '22.5170,113.3925',
   };
 }
 
@@ -89,13 +89,12 @@ export default function RootLayout({ children, params }) {
         <link rel="alternate" hrefLang="x-default" href={`${siteUrl}/en`} />
         
         {/* 地理定位标签 */}
-        <meta name="geo.region" content="CN-44" />
-        <meta name="geo.placename" content="Foshan, Guangdong" />
-        <meta name="geo.position" content="23.0215;113.1214" />
-        <meta name="ICBM" content="23.0215, 113.1214" />
+        <meta name="geo.region" content="CN-GD" />
+        <meta name="geo.placename" content="Zhongshan, Guangdong" />
+        <meta name="geo.position" content="22.5170;113.3925" />
+        <meta name="ICBM" content="22.5170, 113.3925" />
         
         {/* 验证标签（可选） */}
-        <meta name="google-site-verification" content="your-verification-code" />
       </head>
       <body className={inter.className}>
         <StructuredData lang={lang} />
