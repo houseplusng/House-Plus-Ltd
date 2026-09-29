@@ -40,11 +40,11 @@ export default function StructuredData({ lang }) {
     telephone: '+8615578119543',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Industrial Park',
+      streetAddress: 'No. 29 Kangsheng Road, Huangpu Town',
       addressLocality: 'Zhongshan',
       addressRegion: 'Guangdong',
       addressCountry: 'CN',
-      postalCode: '528400',
+      postalCode: '528429',
     },
     contactPoint: {
       '@type': 'ContactPoint',
@@ -55,6 +55,9 @@ export default function StructuredData({ lang }) {
     sameAs: [
       'https://www.houseplus-ch.com',
       'https://wa.me/8615578119543',
+      'https://www.facebook.com/houseplusgroup',
+      'https://www.linkedin.com/company/houseplus-group',
+      'https://www.youtube.com/@houseplusgroup',
     ],
   };
   
@@ -68,10 +71,11 @@ export default function StructuredData({ lang }) {
     email: 'jack@houseplus-ch.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Industrial Park',
+      streetAddress: 'No. 29 Kangsheng Road, Huangpu Town',
       addressLocality: 'Zhongshan',
       addressRegion: 'Guangdong',
       addressCountry: 'CN',
+      postalCode: '528429',
     },
     geo: {
       '@type': 'GeoCoordinates',
@@ -104,11 +108,11 @@ export default function StructuredData({ lang }) {
     description: t.description,
     brand: {
       '@type': 'Brand',
-      name: 'HousePlus Ltd',
+      name: 'HousePlus',
     },
     manufacturer: {
       '@type': 'Organization',
-      name: 'HousePlus Ltd',
+      name: 'HousePlus',
     },
     offers: {
       '@type': 'AggregateOffer',
