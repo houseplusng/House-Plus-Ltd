@@ -4,11 +4,11 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'House Plus Ltd - Professional Manufacturer',
-  description: 'House Plus Ltd is a leading manufacturer of household appliances, solar solutions, and 3C electronics. OEM/ODM services with ISO9001, CE, RoHS certification. Factory direct wholesale.',
-  keywords: 'House Plus Ltd, household appliances manufacturer, solar products supplier, 3C electronics factory, OEM manufacturer China, wholesale home appliances, solar inverter supplier',
+  title: 'HousePlus Ltd - Professional Manufacturer',
+  description: 'HousePlus Ltd is a leading manufacturer of household appliances, solar solutions, and 3C electronics. OEM/ODM services with ISO9001, CE, RoHS certification. Factory direct wholesale.',
+  keywords: 'HousePlus Ltd, household appliances manufacturer, solar products supplier, 3C electronics factory, OEM manufacturer China, wholesale home appliances, solar inverter supplier',
   robots: 'index, follow',
-  authors: [{ name: 'House Plus Ltd' }],
+  authors: [{ name: 'HousePlus Ltd' }],
   viewport: 'width=device-width, initial-scale=1',
   verification: {
     // 如有 Google Search Console 等可在此添加
