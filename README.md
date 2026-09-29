@@ -1,25 +1,25 @@
-# House Plus Ltd - 官方网站
+# HousePlus Ltd - 官方网站
 
 <div align="center">
-  <img src="https://www.houseplus.ltd/images/logo.png" alt="House Plus Ltd" width="200" />
+  <img src="https://www.houseplus.ltd/images/logo.png" alt="HousePlus Ltd" width="200" />
   <br />
   <strong>Professional Manufacturer of Household Appliances, Solar Products & 3C Electronics</strong>
   <br />
   <br />
   <a href="https://www.houseplus.ltd">🌐 Visit Website</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://github.com/yourusername/houseplus-website">📦 GitHub Repository</a>
+  <a href="https://github.com/houseplusng/House-Plus-Ltd">📦 GitHub Repository</a>
 </div>
 
 ---
 
 ## 📖 项目简介
-House Plus Ltd Provides consumer electronics (3C goods), solar energy solutions, and household appliances/kitchen products.
-House Plus Ltd专业提供家电、太阳能、3C 电子产品。--消费电子产品+太阳能产品+家用电器/厨房产品。
+HousePlus Ltd Provides consumer electronics (3C goods), solar energy solutions, and household appliances/kitchen products.
+HousePlus Ltd专业提供家电、太阳能、3C 电子产品。--消费电子产品+太阳能产品+家用电器/厨房产品。
 
-House Plus Ltd 是一个专业的国际贸易B2B企业官网，展示公司的产品线、OEM/ODM 服务能力，并为全球客户提供便捷的联系渠道。
+HousePlus Ltd 是一个专业的国际贸易B2B企业官网，展示公司的产品线、OEM/ODM 服务能力，并为全球客户提供便捷的联系渠道。
 
-House Plus Group Factory (also known as House Plus Ltd) is a manufacturer and supplier specializing in a broad range of consumer electronics (3C goods), solar energy solutions, and household appliances.
+House Plus Group Factory (also known as HousePlus Ltd) is a manufacturer and supplier specializing in a broad range of consumer electronics (3C goods), solar energy solutions, and household appliances.
 
 House Plus Product Catalog
 House Plus operates as a one-stop solution provider for the following categories:
@@ -32,7 +32,7 @@ Kitchen Appliances/Household Appliances: Induction/infrared cookers, breakfast m
 
 Kitchen and Home Appliances
 
-House Plus Ltd.
+HousePlus Ltd.
 
 ### 主要功能
 
@@ -110,13 +110,13 @@ Attn: Jack
 
 E-mail: jack@houseplus-ch.com
 
-Phone/WhatsApp:+861557811943 Copyright © 2026 House Plus Ltd
+Phone/WhatsApp:+861557811943 Copyright © 2026 HousePlus Ltd
 
 Website: https://www.houseplus-ch.com
 
 https://wa.me/c/8615578119543
 
 
-House Plus Ltd Company--Professional Household Appliances & Solar Products & 3C Goods Manufacturer.
+HousePlus Ltd Company--Professional Household Appliances & Solar Products & 3C Goods Manufacturer.
 
 
