@@ -11,7 +11,7 @@ export default function About() {
   const dir = translations[currentLang]?.dir || 'ltr';
 
   return (
-    <section className="py-20" aria-label="About House Plus Ltd">
+    <section className="py-20" aria-label="About HousePlus Ltd">
       <div className="container-custom">
         <div className={`grid md:grid-cols-2 gap-12 items-center ${dir === 'rtl' ? 'md:grid-flow-dense' : ''}`}>
           {/* Left Content */}
@@ -52,7 +52,7 @@ export default function About() {
               <div className="relative w-full h-64">
                 <Image
                   src="/images/factory-interior.jpg"
-                  alt="House Plus Ltd factory interior with advanced manufacturing equipment"
+                  alt="HousePlus Ltd factory interior with advanced manufacturing equipment"
                   fill
                   className="object-cover rounded-lg"
                   sizes="(max-width: 768px) 100vw, 50vw"
