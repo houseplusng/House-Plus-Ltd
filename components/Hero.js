@@ -30,7 +30,7 @@ export default function Hero() {
               {t.title}
             </h1>
             <p className="text-xl text-primary font-semibold mb-4">
-              House Plus Ltd – {t.subtitle}
+              HousePlus Ltd – {t.subtitle}
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">{t.description}</p>
             
@@ -63,7 +63,7 @@ export default function Hero() {
               <div className="relative w-full h-64">
                 <Image
                   src="/images/factory-preview.jpg"
-                  alt="House Plus Ltd Factory - Professional manufacturing facility in Foshan, China"
+                  alt="HousePlus Ltd Factory - Professional manufacturing facility in Zhongshan, China"
                   fill
                   className="object-contain"
                   priority
@@ -71,9 +71,9 @@ export default function Hero() {
                 />
               </div>
               <p className="mt-4 text-gray-500 font-medium">
-                {currentLang === 'en' ? 'House Plus Ltd Factory' : 
-                 currentLang === 'fr' ? 'Usine House Plus Ltd' : 
-                 currentLang === 'es' ? 'Fábrica House Plus Ltd' : 
+                {currentLang === 'en' ? 'HousePlus Ltd Factory' : 
+                 currentLang === 'fr' ? 'Usine HousePlus Ltd' : 
+                 currentLang === 'es' ? 'Fábrica HousePlus Ltd' : 
                  'مصنع هاوس بلس المحدودة'}
               </p>
               <p className="text-xs text-gray-400 mt-1">20,000㎡ Smart Factory | 200+ Professionals</p>
