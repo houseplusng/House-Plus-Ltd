@@ -12,8 +12,27 @@ export default function StructuredData({ lang }) {
   const organizationData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'House Plus Ltd',
-    alternateName: 'House Plus Group',
+    name: 'HousePlus Ltd',
+    alternateName: 'HousePlus',
+    legalName: 'HousePlus Ltd',
+    brand: {
+      '@type': 'Brand',
+      name: 'HousePlus',
+    },
+    parentOrganization: {
+      '@type': 'Organization',
+      name: 'HousePlus Group',
+      url: 'https://www.houseplus-ch.com',
+    },
+    foundingDate: '2010',
+    founder: {
+      '@type': 'Person',
+      name: 'Jack Hu',
+    },
+    numberOfEmployees: {
+      '@type': 'QuantitativeValue',
+      minValue: 500,
+    },
     url: siteUrl,
     logo: `${siteUrl}/images/logo.png`,
     description: t.description,
@@ -22,10 +41,10 @@ export default function StructuredData({ lang }) {
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Industrial Park',
-      addressLocality: 'Foshan',
+      addressLocality: 'Zhongshan',
       addressRegion: 'Guangdong',
       addressCountry: 'CN',
-      postalCode: '528000',
+      postalCode: '528400',
     },
     contactPoint: {
       '@type': 'ContactPoint',
@@ -34,15 +53,15 @@ export default function StructuredData({ lang }) {
       availableLanguage: ['English', 'French', 'Spanish', 'Arabic'],
     },
     sameAs: [
+      'https://www.houseplus-ch.com',
       'https://wa.me/8615578119543',
-      // 如有其他社交媒体可添加
     ],
   };
   
   const localBusinessData = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'House Plus Ltd',
+    name: 'HousePlus Ltd',
     description: t.description,
     image: `${siteUrl}/images/factory.jpg`,
     telephone: '+8615578119543',
@@ -50,14 +69,14 @@ export default function StructuredData({ lang }) {
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Industrial Park',
-      addressLocality: 'Foshan',
+      addressLocality: 'Zhongshan',
       addressRegion: 'Guangdong',
       addressCountry: 'CN',
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: '23.0215',
-      longitude: '113.1214',
+      latitude: '22.5170',
+      longitude: '113.3925',
     },
     priceRange: '$$',
     openingHours: 'Mo-Fr 08:00-18:00',
@@ -85,11 +104,11 @@ export default function StructuredData({ lang }) {
     description: t.description,
     brand: {
       '@type': 'Brand',
-      name: 'House Plus Ltd',
+      name: 'HousePlus Ltd',
     },
     manufacturer: {
       '@type': 'Organization',
-      name: 'House Plus Ltd',
+      name: 'HousePlus Ltd',
     },
     offers: {
       '@type': 'AggregateOffer',
