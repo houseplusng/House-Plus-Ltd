@@ -58,11 +58,9 @@ export default function Header() {
           <Link 
             href={`/${currentLang}`} 
             className="text-2xl font-bold hover:opacity-80 transition-opacity"
-            aria-label="House Plus Ltd - Home"
+            aria-label="HousePlus Ltd - Home"
           >
-            <span className="text-primary">House</span>
-            <span className="text-secondary"> Plus</span>
-            <span className="text-xs ml-1 text-gray-500 align-top" aria-label="Limited">Ltd</span>
+            <span className="text-primary">House</span><span className="text-secondary">Plus</span>
           </Link>
 
           {/* Desktop Navigation - semantic nav */}
