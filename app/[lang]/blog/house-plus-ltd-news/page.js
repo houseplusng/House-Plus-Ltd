@@ -4,15 +4,15 @@ export async function generateMetadata({ params }) {
   const { lang } = params;
   
   const titles = {
-    en: 'House Plus Ltd - Your Trusted Manufacturing Partner',
-    fr: 'House Plus Ltd - Votre Partenaire de Confiance',
-    es: 'House Plus Ltd - Su Socio de Confianza',
+    en: 'HousePlus Ltd - Your Trusted Manufacturing Partner',
+    fr: 'HousePlus Ltd - Votre Partenaire de Confiance',
+    es: 'HousePlus Ltd - Su Socio de Confianza',
     ar: 'هاوس بلس المحدودة - شريكك الموثوق في التصنيع',
   };
   
   return {
-    title: `${titles[lang] || titles.en} | House Plus Ltd Blog`,
-    description: 'Discover why House Plus Ltd is the preferred OEM/ODM partner for global brands.',
+    title: `${titles[lang] || titles.en} | HousePlus Ltd Blog`,
+    description: 'Discover why HousePlus Ltd is the preferred OEM/ODM partner for global brands.',
   };
 }
 
@@ -22,9 +22,9 @@ export default function HousePlusNewsPage({ params }) {
 
   const content = {
     en: {
-      title: 'House Plus Ltd - Your Trusted Manufacturing Partner',
+      title: 'HousePlus Ltd - Your Trusted Manufacturing Partner',
       intro: 'Who We Are',
-      introText: 'House Plus Ltd is a premier manufacturer specializing in household appliances, solar products, and 3C electronics. With over 15 years of industry experience, we have established ourselves as a trusted OEM/ODM partner for brands across the globe.',
+      introText: 'HousePlus Ltd is a premier manufacturer specializing in household appliances, solar products, and 3C electronics. With over 15 years of industry experience, we have established ourselves as a trusted OEM/ODM partner for brands across the globe.',
       quality: 'Our Commitment to Quality',
       qualityText: 'Quality is at the heart of everything we do. Our 20,000㎡ smart factory is equipped with state-of-the-art manufacturing equipment and staffed by over 200 skilled professionals. Every product undergoes rigorous testing to ensure it meets international standards including ISO9001, CE, RoHS, and FCC certifications.',
       products: 'Our Product Lines',
@@ -33,7 +33,7 @@ export default function HousePlusNewsPage({ params }) {
         'Solar Power Systems: Solar panels, hybrid inverters, lithium batteries, solar lights, and solar water pumps.',
         '3C Electronics: GaN chargers, power banks, wireless earbuds, smart watches, and USB-C hubs.',
       ],
-      whyChoose: 'Why Partner with House Plus Ltd?',
+      whyChoose: 'Why Partner with HousePlus Ltd?',
       advantages: [
         '15+ Years of Experience: Proven track record in manufacturing excellence.',
         '50+ Countries Served: Trusted by partners worldwide.',
@@ -48,9 +48,9 @@ export default function HousePlusNewsPage({ params }) {
       backToBlog: '← Back to Blog',
     },
     fr: {
-      title: 'House Plus Ltd - Votre Partenaire de Confiance',
+      title: 'HousePlus Ltd - Votre Partenaire de Confiance',
       intro: 'Qui sommes-nous',
-      introText: 'House Plus Ltd est un fabricant de premier plan spécialisé dans les appareils électroménagers, les produits solaires et l\'électronique 3C. Avec plus de 15 ans d\'expérience, nous sommes un partenaire OEM/ODM de confiance pour les marques du monde entier.',
+      introText: 'HousePlus Ltd est un fabricant de premier plan spécialisé dans les appareils électroménagers, les produits solaires et l\'électronique 3C. Avec plus de 15 ans d\'expérience, nous sommes un partenaire OEM/ODM de confiance pour les marques du monde entier.',
       quality: 'Notre engagement pour la qualité',
       qualityText: 'La qualité est au cœur de tout ce que nous faisons. Notre usine intelligente de 20 000㎡ est équipée d\'équipements de pointe et emploie plus de 200 professionnels qualifiés.',
       products: 'Nos gammes de produits',
@@ -59,7 +59,7 @@ export default function HousePlusNewsPage({ params }) {
         'Systèmes solaires : Panneaux solaires, onduleurs hybrides, batteries lithium, lampes solaires.',
         'Accessoires 3C : Chargeurs GaN, batteries externes, écouteurs sans fil, montres intelligentes.',
       ],
-      whyChoose: 'Pourquoi choisir House Plus Ltd ?',
+      whyChoose: 'Pourquoi choisir HousePlus Ltd ?',
       advantages: [
         '15+ années d\'expérience : Excellence éprouvée en fabrication.',
         '50+ pays desservis : Fiable par des partenaires mondiaux.',
@@ -74,9 +74,9 @@ export default function HousePlusNewsPage({ params }) {
       backToBlog: '← Retour au Blog',
     },
     es: {
-      title: 'House Plus Ltd - Su Socio de Confianza',
+      title: 'HousePlus Ltd - Su Socio de Confianza',
       intro: 'Quiénes Somos',
-      introText: 'House Plus Ltd es un fabricante líder especializado en electrodomésticos, productos solares y electrónica 3C. Con más de 15 años de experiencia, somos un socio OEM/ODM de confianza para marcas de todo el mundo.',
+      introText: 'HousePlus Ltd es un fabricante líder especializado en electrodomésticos, productos solares y electrónica 3C. Con más de 15 años de experiencia, somos un socio OEM/ODM de confianza para marcas de todo el mundo.',
       quality: 'Nuestro Compromiso con la Calidad',
       qualityText: 'La calidad está en el corazón de todo lo que hacemos. Nuestra fábrica inteligente de 20,000㎡ está equipada con tecnología de punta y cuenta con más de 200 profesionales calificados.',
       products: 'Nuestras Líneas de Productos',
@@ -85,7 +85,7 @@ export default function HousePlusNewsPage({ params }) {
         'Sistemas Solares: Paneles solares, inversores híbridos, baterías de litio, luces solares.',
         'Accesorios 3C: Cargadores GaN, bancos de energía, auriculares inalámbricos, relojes inteligentes.',
       ],
-      whyChoose: '¿Por qué asociarse con House Plus Ltd?',
+      whyChoose: '¿Por qué asociarse con HousePlus Ltd?',
       advantages: [
         '15+ Años de Experiencia: Trayectoria comprobada en excelencia de fabricación.',
         '50+ Países Atendidos: Confiable para socios en todo el mundo.',
