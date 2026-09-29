@@ -44,7 +44,7 @@ export async function generateMetadata({ params }) {
           url: `${siteUrl}/images/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: 'House Plus Ltd - Professional Manufacturer',
+          alt: 'HousePlus Ltd - Professional Manufacturer',
         },
       ],
     },
