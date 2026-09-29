@@ -17,9 +17,7 @@ export default function Footer() {
           {/* Brand */}
           <div className={dir === 'rtl' ? 'text-right' : ''}>
             <h3 className="text-2xl font-bold mb-4">
-              <span className="text-primary">House</span>
-              <span className="text-secondary"> Plus</span>
-              <span className="text-xs ml-1 text-gray-400 align-top">Ltd</span>
+              <span className="text-primary">House</span><span className="text-secondary">Plus</span>
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">{t.tagline}</p>
             <p className="text-gray-500 text-xs mt-3">{t.certifications}</p>
@@ -74,7 +72,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className={`border-t border-gray-800 pt-8 text-center text-sm text-gray-400 ${dir === 'rtl' ? 'text-right md:text-center' : ''}`}>
+PLACEHOLDER_COPYRIGHT_DIV_OPEN
           <p>&copy; {new Date().getFullYear()} House Plus Ltd. {t.rights}</p>
           <p className="text-xs text-gray-500 mt-2">ISO 9001:2015 Certified | CE | RoHS | FCC</p>
         </div>
