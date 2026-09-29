@@ -86,7 +86,7 @@ export default function Products() {
         {/* SEO-friendly hidden content for keywords */}
         <div className="sr-only" aria-hidden="true">
           <h3>Household Appliances Manufacturer China</h3>
-          <p>House Plus Ltd specializes in manufacturing high-quality household appliances including air fryers, vacuum cleaners, blenders, and electric kettles. We are a leading OEM/ODM manufacturer in China with ISO9001 certification.</p>
+          <p>HousePlus Ltd specializes in manufacturing high-quality household appliances including air fryers, vacuum cleaners, blenders, and electric kettles. We are a leading OEM/ODM manufacturer in China with ISO9001 certification.</p>
           <h3>Solar Products Supplier</h3>
           <p>Our solar solutions include solar panels, hybrid inverters, lithium batteries, and solar lighting systems. We provide complete renewable energy solutions for residential and commercial applications.</p>
           <h3>3C Electronics Factory</h3>
