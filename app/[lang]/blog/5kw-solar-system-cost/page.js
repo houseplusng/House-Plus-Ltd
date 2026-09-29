@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   };
   
   return {
-    title: `${titles[lang] || titles.en} | House Plus Ltd Blog`,
+    title: `${titles[lang] || titles.en} | HousePlus Ltd Blog`,
     description: 'Complete breakdown of 5kW solar system costs in the US for 2026. Learn about equipment, labor, and how to reduce installation costs.',
   };
 }
@@ -21,7 +21,7 @@ export default function SolarCostGuidePage({ params }) {
   const content = {
     en: {
       title: 'What is the Installation Cost of a 5kW Solar System in the US?',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
       date: '2026-04-20',
       intro: 'A 5kW solar system is one of the most popular sizes for average American homes. It typically produces 500-700 kWh per month, enough to cover the electricity needs of a 2-3 bedroom home. But for installers and distributors, understanding the real cost breakdown is essential – both for your own pricing and for educating your customers.',
       section1: 'Average 5kW Solar System Cost in the US (2026)',
@@ -86,8 +86,8 @@ export default function SolarCostGuidePage({ params }) {
         'Combine with other work – If re-roofing anyway, bundle solar installation',
         'Shop for permits – Some jurisdictions are faster/cheaper than others',
       ],
-      section5: 'Why House Plus Ltd for Your Supply Chain',
-      section5Content: 'If you\'re an installer or EPC company sourcing components, House Plus Ltd provides:',
+      section5: 'Why HousePlus Ltd for Your Supply Chain',
+      section5Content: 'If you\'re an installer or EPC company sourcing components, HousePlus Ltd provides:',
       benefits: [
         'Competitive panel pricing – Direct from factory, no middleman markup',
         'Customizable inverters – Match your regional voltage and grid codes',
@@ -95,7 +95,7 @@ export default function SolarCostGuidePage({ params }) {
         'Technical support – Our team helps with system design and troubleshooting',
         'Bulk discounts – The more you order, the better your per-unit cost',
       ],
-      cta: 'Ready to source components for your next project? Contact House Plus Ltd for a volume quote →',
+      cta: 'Ready to source components for your next project? Contact HousePlus Ltd for a volume quote →',
       backToBlog: '← Back to Blog',
     },
   };
