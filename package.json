@@ -1,5 +1,6 @@
 {
   "name": "houseplus-website",
+  "homepage": "https://www.houseplus.ltd",
   "version": "1.0.0",
   "private": true,
   "scripts": {
