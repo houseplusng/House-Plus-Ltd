@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   };
   
   return {
-    title: `${titles[lang] || titles.en} | House Plus Ltd Blog`,
+    title: `${titles[lang] || titles.en} | HousePlus Ltd Blog`,
     description: 'Learn how to choose the right solar inverter for your home. Comparison of string inverters, microinverters, and hybrid inverters.',
   };
 }
@@ -21,7 +21,7 @@ export default function SolarInverterGuidePage({ params }) {
   const content = {
     en: {
       title: 'How to Choose the Right Solar Inverter for Your Home',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
       date: '2026-04-20',
       intro: 'The solar inverter is the brain of any home solar system. While solar panels capture energy, it\'s the inverter that converts DC power into usable AC power, manages system performance, and ensures safety. Choosing the wrong inverter can lead to 15-20% energy loss or premature system failure.',
       section1: 'Three Types of Solar Inverters for Homes',
@@ -64,8 +64,8 @@ export default function SolarInverterGuidePage({ params }) {
         'How important is monitoring? Microinverters offer the best panel-level data.',
         'What is the budget? String inverters are most affordable.',
       ],
-      section4: 'Why Work with an OEM Manufacturer Like House Plus Ltd',
-      section4Content: 'Sourcing from an experienced OEM partner ensures you get inverters that meet your local market requirements. House Plus Ltd offers:',
+      section4: 'Why Work with an OEM Manufacturer Like HousePlus Ltd',
+      section4Content: 'Sourcing from an experienced OEM partner ensures you get inverters that meet your local market requirements. HousePlus Ltd offers:',
       benefits: [
         'Customizable specifications – Match voltage, frequency, and communication protocols to your region',
         'Certification assistance – We help navigate UL, CE, TUV, and other compliance requirements',
@@ -77,7 +77,7 @@ export default function SolarInverterGuidePage({ params }) {
     },
     fr: {
       title: 'Comment choisir le bon onduleur solaire pour votre maison',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
       date: '2026-04-20',
       intro: 'L\'onduleur solaire est le cerveau de tout système solaire résidentiel...',
       cta: 'Prêt à discuter de votre projet d\'onduleur solaire? Contactez notre équipe pour une consultation gratuite →',
