@@ -66,15 +66,19 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span>Foshan, Guangdong, China</span>
+                <span>Zhongshan, Guangdong, China</span>
               </li>
             </ul>
           </div>
         </div>
 
-PLACEHOLDER_COPYRIGHT_DIV_OPEN
-          <p>&copy; {new Date().getFullYear()} House Plus Ltd. {t.rights}</p>
+<div className="border-t border-gray-800 mt-8 pt-8">
+          <p>&copy; {new Date().getFullYear()} HousePlus Ltd. {t.rights}</p>
           <p className="text-xs text-gray-500 mt-2">ISO 9001:2015 Certified | CE | RoHS | FCC</p>
+            <p className="text-xs text-gray-500 mt-2">
+              HousePlus Ltd is a HousePlus brand operating under HousePlus Group. Visit our main site:{" "}
+              <a href="https://www.houseplus-ch.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition">houseplus-ch.com</a>
+            </p>
         </div>
       </div>
     </footer>
