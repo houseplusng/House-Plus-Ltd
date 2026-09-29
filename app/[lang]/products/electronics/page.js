@@ -7,7 +7,7 @@ export async function generateMetadata({ params }) {
   const t = translations[lang]?.products?.electronics || translations.en.products.electronics;
   
   return {
-    title: `${t.title} | House Plus Ltd`,
+    title: `${t.title} | HousePlus Ltd`,
     description: t.description,
   };
 }
