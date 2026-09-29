@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
   }
   
   return {
-    title: `${post.title} | House Plus Ltd Blog`,
+    title: `${post.title} | HousePlus Ltd Blog`,
     description: post.excerpt,
   };
 }
