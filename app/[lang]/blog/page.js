@@ -4,13 +4,23 @@ import Link from 'next/link';
 const blogPostsConfig = {
   en: [
     {
+      slug: 'houseplus-ltd-houseplus-brand',
+      title: 'HousePlus Ltd: A HousePlus Brand Under HousePlus Group',
+      excerpt: 'HousePlus Ltd is the HousePlus brand operating this regional affiliate site under HousePlus Group. Visit our main site at houseplus-ch.com for the full catalog and OEM/ODM capabilities.',
+      date: '2026-09-29',
+      readTime: '4 min read',
+      category: 'Brand',
+      author: 'HousePlus Ltd',
+    },
+
+    {
       slug: 'house-plus-ltd-news',
-      title: 'House Plus Ltd - Your Trusted Manufacturing Partner',
-      excerpt: 'Discover why House Plus Ltd is the preferred OEM/ODM partner for global brands in household appliances, solar products, and 3C electronics.',
+      title: 'HousePlus Ltd - Your Trusted Manufacturing Partner',
+      excerpt: 'Discover why HousePlus Ltd is the preferred OEM/ODM partner for global brands in household appliances, solar products, and 3C electronics.',
       date: '2025-03-25',
       readTime: '3 min read',
       category: 'Company News',
-      author: 'House Plus Ltd Team',
+      author: 'HousePlus Ltd Team',
     },
     {
       slug: 'why-choose-oem-manufacturer-china',
@@ -46,7 +56,7 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '7 min read',
       category: 'Solar Energy',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
     {
       slug: 'lithium-battery-manufacturers',
@@ -55,7 +65,7 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '8 min read',
       category: 'Energy Storage',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
     {
       slug: '5kw-solar-system-cost',
@@ -64,18 +74,28 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '6 min read',
       category: 'Solar Energy',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
   ],
   fr: [
     {
+      slug: 'houseplus-ltd-houseplus-brand',
+      title: 'HousePlus Ltd : une marque HousePlus sous HousePlus Group',
+      excerpt: 'HousePlus Ltd est la marque HousePlus qui exploite ce site affilié régional sous HousePlus Group. Visitez notre site principal houseplus-ch.com pour le catalogue complet.',
+      date: '2026-09-29',
+      readTime: '4 min de lecture',
+      category: 'Marque',
+      author: 'HousePlus Ltd',
+    },
+
+    {
       slug: 'house-plus-ltd-news',
-      title: 'House Plus Ltd - Votre Partenaire de Confiance',
-      excerpt: 'Découvrez pourquoi House Plus Ltd est le partenaire OEM/ODM privilégié des marques mondiales.',
+      title: 'HousePlus Ltd - Votre Partenaire de Confiance',
+      excerpt: 'Découvrez pourquoi HousePlus Ltd est le partenaire OEM/ODM privilégié des marques mondiales.',
       date: '2025-03-25',
       readTime: '3 min de lecture',
       category: 'Actualités',
-      author: 'Équipe House Plus Ltd',
+      author: 'Équipe HousePlus Ltd',
     },
     {
       slug: 'why-choose-oem-manufacturer-china',
@@ -111,7 +131,7 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '7 min de lecture',
       category: 'Énergie Solaire',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
     {
       slug: 'lithium-battery-manufacturers',
@@ -120,7 +140,7 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '8 min de lecture',
       category: 'Stockage d\'énergie',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
     {
       slug: '5kw-solar-system-cost',
@@ -129,18 +149,28 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '6 min de lecture',
       category: 'Énergie Solaire',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
   ],
   es: [
     {
+      slug: 'houseplus-ltd-houseplus-brand',
+      title: 'HousePlus Ltd: una marca HousePlus bajo HousePlus Group',
+      excerpt: 'HousePlus Ltd es la marca HousePlus que opera este sitio afiliado regional bajo HousePlus Group. Visite nuestro sitio principal houseplus-ch.com para el catálogo completo.',
+      date: '2026-09-29',
+      readTime: '4 min de lectura',
+      category: 'Marca',
+      author: 'HousePlus Ltd',
+    },
+
+    {
       slug: 'house-plus-ltd-news',
-      title: 'House Plus Ltd - Su Socio de Confianza',
-      excerpt: 'Descubra por qué House Plus Ltd es el socio OEM/ODM preferido por marcas globales.',
+      title: 'HousePlus Ltd - Su Socio de Confianza',
+      excerpt: 'Descubra por qué HousePlus Ltd es el socio OEM/ODM preferido por marcas globales.',
       date: '2025-03-25',
       readTime: '3 min de lectura',
       category: 'Noticias',
-      author: 'Equipo House Plus Ltd',
+      author: 'Equipo HousePlus Ltd',
     },
     {
       slug: 'why-choose-oem-manufacturer-china',
@@ -176,7 +206,7 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '7 min de lectura',
       category: 'Energía Solar',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
     {
       slug: 'lithium-battery-manufacturers',
@@ -185,7 +215,7 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '8 min de lectura',
       category: 'Almacenamiento de energía',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
     {
       slug: '5kw-solar-system-cost',
@@ -194,10 +224,20 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '6 min de lectura',
       category: 'Energía Solar',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
   ],
   ar: [
+    {
+      slug: 'houseplus-ltd-houseplus-brand',
+      title: 'HousePlus Ltd: علامة HousePlus تحت HousePlus Group',
+      excerpt: 'HousePlus Ltd هي علامة HousePlus التي تشغل هذا الموقع التابع الإقليمي تحت HousePlus Group. قم بزيارة موقعنا الرئيسي houseplus-ch.com للكتالوج الكامل.',
+      date: '2026-09-29',
+      readTime: '٤ دقائق قراءة',
+      category: 'العلامة التجارية',
+      author: 'HousePlus Ltd',
+    },
+
     {
       slug: 'house-plus-ltd-news',
       title: 'هاوس بلس المحدودة - شريكك الموثوق في التصنيع',
@@ -241,7 +281,7 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '٧ دقائق قراءة',
       category: 'طاقة شمسية',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
     {
       slug: 'lithium-battery-manufacturers',
@@ -250,7 +290,7 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '٨ دقائق قراءة',
       category: 'تخزين الطاقة',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
     {
       slug: '5kw-solar-system-cost',
@@ -259,7 +299,7 @@ const blogPostsConfig = {
       date: '2026-04-20',
       readTime: '٦ دقائق قراءة',
       category: 'طاقة شمسية',
-      author: 'House Plus Ltd',
+      author: 'HousePlus Ltd',
     },
   ],
 };
@@ -267,8 +307,8 @@ const blogPostsConfig = {
 export async function generateMetadata({ params }) {
   const { lang } = params;
   return {
-    title: `Blog | House Plus Ltd`,
-    description: `Latest news, insights, and updates from House Plus Ltd`,
+    title: `Blog | HousePlus Ltd`,
+    description: `Latest news, insights, and updates from HousePlus Ltd`,
   };
 }
 
@@ -285,9 +325,9 @@ export default function BlogPage({ params }) {
             {lang === 'en' ? 'Blog' : lang === 'fr' ? 'Blog' : lang === 'es' ? 'Blog' : 'المدونة'}
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            {lang === 'en' ? 'Latest news, insights, and updates from House Plus Ltd' : 
-             lang === 'fr' ? 'Dernières nouvelles, informations et mises à jour de House Plus Ltd' : 
-             lang === 'es' ? 'Últimas noticias, información y actualizaciones de House Plus Ltd' : 
+            {lang === 'en' ? 'Latest news, insights, and updates from HousePlus Ltd' : 
+             lang === 'fr' ? 'Dernières nouvelles, informations et mises à jour de HousePlus Ltd' : 
+             lang === 'es' ? 'Últimas noticias, información y actualizaciones de HousePlus Ltd' : 
              'أحدث الأخبار والرؤى والتحديثات من هاوس بلس المحدودة'}
           </p>
         </div>
