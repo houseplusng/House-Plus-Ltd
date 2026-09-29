@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
         </div>
 
-<div className="border-t border-gray-800 mt-8 pt-8">
+        <div className="border-t border-gray-800 mt-8 pt-8">
           <p>&copy; {new Date().getFullYear()} HousePlus Ltd. {t.rights}</p>
           <p className="text-xs text-gray-500 mt-2">ISO 9001:2015 Certified | CE | RoHS | FCC</p>
             <p className="text-xs text-gray-500 mt-2">
