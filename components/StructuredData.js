@@ -8,7 +8,7 @@ export default function StructuredData({ lang }) {
   const currentLang = lang || pathname?.split('/')[1] || 'en';
   const t = translations[currentLang]?.seo || translations.en.seo;
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.houseplus.ltd';
-  
+
   const organizationData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -60,7 +60,7 @@ export default function StructuredData({ lang }) {
       'https://www.youtube.com/@houseplusgroup',
     ],
   };
-  
+
   const localBusinessData = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
@@ -85,7 +85,7 @@ export default function StructuredData({ lang }) {
     priceRange: '$$',
     openingHours: 'Mo-Fr 08:00-18:00',
   };
-  
+
   const breadcrumbData = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -98,7 +98,7 @@ export default function StructuredData({ lang }) {
       },
     ],
   };
-  
+
   // 如果是产品页面，添加产品结构化数据
   const isProductPage = pathname?.includes('/products');
   const productData = isProductPage ? {
@@ -120,7 +120,53 @@ export default function StructuredData({ lang }) {
       availability: 'https://schema.org/InStock',
     },
   } : null;
-  
+
+  // 联系页面添加 ContactPage 结构化数据
+  const isContactPage = pathname?.includes('/contact');
+  const contactPageData = isContactPage ? {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: 'Contact HousePlus Ltd',
+    mainEntity: {
+      '@type': 'Organization',
+      name: 'HousePlus Ltd',
+      email: 'jack@houseplus-ch.com',
+      telephone: '+8615578119543',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'No. 29 Kangsheng Road, Huangpu Town',
+        addressLocality: 'Zhongshan',
+        addressRegion: 'Guangdong',
+        addressCountry: 'CN',
+        postalCode: '528429',
+      },
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: '+8615578119543',
+        email: 'jack@houseplus-ch.com',
+        contactType: 'customer service',
+        areaServed: 'Worldwide',
+        availableLanguage: ['English', 'French', 'Spanish', 'Arabic'],
+      },
+    },
+  } : null;
+
+  // FAQ 页面添加 FAQPage 结构化数据
+  const isFaqPage = pathname?.includes('/faq');
+  const faqItems = translations[currentLang]?.faq?.items || [];
+  const faqPageData = isFaqPage && faqItems.length ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  } : null;
+
   return (
     <script
       type="application/ld+json"
@@ -130,6 +176,8 @@ export default function StructuredData({ lang }) {
           localBusinessData,
           breadcrumbData,
           ...(productData ? [productData] : []),
+          ...(contactPageData ? [contactPageData] : []),
+          ...(faqPageData ? [faqPageData] : []),
         ]),
       }}
     />
