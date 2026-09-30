@@ -12,7 +12,7 @@ export default function Header() {
   const currentLang = pathname.split('/')[1] || 'en';
   const t = translations[currentLang]?.nav || translations.en.nav;
   const dir = translations[currentLang]?.dir || 'ltr';
-  
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
@@ -55,8 +55,8 @@ export default function Header() {
       <div className="container-custom">
         <div className={`flex justify-between items-center h-20 ${dir === 'rtl' ? 'flex-row-reverse' : ''}`}>
           {/* Logo with semantic HTML */}
-          <Link 
-            href={`/${currentLang}`} 
+          <Link
+            href={`/${currentLang}`}
             className="text-2xl font-bold hover:opacity-80 transition-opacity"
             aria-label="HousePlus Ltd - Home"
           >
@@ -70,6 +70,7 @@ export default function Header() {
               <li><Link href={`/${currentLang}/products`} className="hover:text-primary transition">{t.products}</Link></li>
               <li><Link href={`/${currentLang}/about`} className="hover:text-primary transition">{t.about}</Link></li>
               <li><Link href={`/${currentLang}/blog`} className="hover:text-primary transition">{t.blog}</Link></li>
+              <li><Link href={`/${currentLang}/faq`} className="hover:text-primary transition">{t.faq}</Link></li>
               <li><Link href={`/${currentLang}/contact`} className="hover:text-primary transition">{t.contact}</Link></li>
             </ul>
           </nav>
@@ -106,8 +107,8 @@ export default function Header() {
             </div>
 
             {/* Desktop CTA */}
-            <Link 
-              href={`/${currentLang}/contact`} 
+            <Link
+              href={`/${currentLang}/contact`}
               className="hidden md:block btn-primary text-sm px-5 py-2"
               aria-label="Get a free quote"
             >
@@ -140,6 +141,7 @@ export default function Header() {
               <li><Link href={`/${currentLang}/products`} className="block py-2 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>{t.products}</Link></li>
               <li><Link href={`/${currentLang}/about`} className="block py-2 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>{t.about}</Link></li>
               <li><Link href={`/${currentLang}/blog`} className="block py-2 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>{t.blog}</Link></li>
+              <li><Link href={`/${currentLang}/faq`} className="block py-2 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>{t.faq}</Link></li>
               <li><Link href={`/${currentLang}/contact`} className="block py-2 hover:text-primary transition" onClick={() => setIsMenuOpen(false)}>{t.contact}</Link></li>
               <li><Link href={`/${currentLang}/contact`} className="btn-primary text-center block" onClick={() => setIsMenuOpen(false)}>{getCtaText()}</Link></li>
             </ul>
