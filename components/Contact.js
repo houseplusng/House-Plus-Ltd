@@ -49,7 +49,7 @@ export default function Contact() {
           {/* Left Content */}
           <div className={dir === 'rtl' ? 'md:order-last' : ''}>
             <h2 className={`text-3xl md:text-4xl font-bold mb-4 ${dir === 'rtl' ? 'text-right' : ''}`}>{t.title}</h2>
-            <p className={`text-primary/90 mb-8 text-lg ${dir === 'rtl' ? 'text-right' : ''}`}>{t.subtitle}</p>
+            <p className={`text-white/90 mb-8 text-lg ${dir === 'rtl' ? 'text-right' : ''}`}>{t.subtitle}</p>
 
             <div className={`space-y-4 ${dir === 'rtl' ? 'text-right' : ''}`}>
               <div className={`flex items-center gap-4 ${dir === 'rtl' ? 'flex-row-reverse' : ''}`}>
@@ -64,7 +64,7 @@ export default function Contact() {
                 </svg>
                 <div className="flex flex-col">
                   <a href="tel:+8615578119543" className="hover:underline">{t.phone}</a>
-                  <a href="https://wa.me/8615578119543" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm text-primary/80">{t.whatsapp}</a>
+                  <a href="https://wa.me/8615578119543" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm text-white/80">{t.whatsapp}</a>
                 </div>
               </div>
               <div className={`flex items-center gap-4 ${dir === 'rtl' ? 'flex-row-reverse' : ''}`}>
@@ -86,12 +86,12 @@ export default function Contact() {
                 </svg>
                 <div className="flex flex-col">
                   <span className="font-semibold">{t.hoursLabel}</span>
-                  <span className="text-primary/90">{t.hours}</span>
+                  <span className="text-white/90">{t.hours}</span>
                 </div>
               </div>
             </div>
 
-            <p className={`mt-6 text-sm text-primary/90 ${dir === 'rtl' ? 'text-right' : ''}`}>
+            <p className={`mt-6 text-sm text-white/90 ${dir === 'rtl' ? 'text-right' : ''}`}>
               {currentLang === 'en' ? 'We typically reply to all inquiries within 24 hours.' :
                currentLang === 'fr' ? 'Nous répondons généralement à toutes les demandes sous 24 heures.' :
                currentLang === 'es' ? 'Respondemos normalmente a todas las consultas en 24 horas.' :
