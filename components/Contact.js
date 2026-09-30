@@ -9,7 +9,7 @@ export default function Contact() {
   const currentLang = pathname.split('/')[1] || 'en';
   const t = translations[currentLang]?.contact || translations.en.contact;
   const dir = translations[currentLang]?.dir || 'ltr';
-  
+
   const [formStatus, setFormStatus] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -17,10 +17,10 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     setFormStatus(null);
-    
+
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData.entries());
-    
+
     try {
       // 替换为您的实际 API 端点
       const response = await fetch('/api/contact', {
@@ -28,7 +28,7 @@ export default function Contact() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
       });
-      
+
       if (response.ok) {
         setFormStatus('success');
         e.target.reset();
@@ -62,7 +62,16 @@ export default function Contact() {
                 <svg className="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <a href="https://wa.me/8615578119543" target="_blank" rel="noopener noreferrer" className="hover:underline">+86 15578119543</a>
+                <div className="flex flex-col">
+                  <a href="tel:+8615578119543" className="hover:underline">{t.phone}</a>
+                  <a href="https://wa.me/8615578119543" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm text-primary/80">{t.whatsapp}</a>
+                </div>
+              </div>
+              <div className={`flex items-center gap-4 ${dir === 'rtl' ? 'flex-row-reverse' : ''}`}>
+                <svg className="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.86 9.86 0 01-4-.8L3 20l1.3-3.9A7.96 7.96 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+                <span>WeChat: <span className="font-semibold">{t.wechat}</span></span>
               </div>
               <div className={`flex items-center gap-4 ${dir === 'rtl' ? 'flex-row-reverse' : ''}`}>
                 <svg className="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -71,7 +80,23 @@ export default function Contact() {
                 </svg>
                 <span>{t.address}</span>
               </div>
+              <div className={`flex items-center gap-4 ${dir === 'rtl' ? 'flex-row-reverse' : ''}`}>
+                <svg className="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <div className="flex flex-col">
+                  <span className="font-semibold">{t.hoursLabel}</span>
+                  <span className="text-primary/90">{t.hours}</span>
+                </div>
+              </div>
             </div>
+
+            <p className={`mt-6 text-sm text-primary/90 ${dir === 'rtl' ? 'text-right' : ''}`}>
+              {currentLang === 'en' ? 'We typically reply to all inquiries within 24 hours.' :
+               currentLang === 'fr' ? 'Nous répondons généralement à toutes les demandes sous 24 heures.' :
+               currentLang === 'es' ? 'Respondemos normalmente a todas las consultas en 24 horas.' :
+               'نرد عادة على جميع الاستفسارات خلال 24 ساعة.'}
+            </p>
 
             <div className="mt-8">
               <a
@@ -92,7 +117,7 @@ export default function Contact() {
           {/* Right Form */}
           <div className="bg-white rounded-xl p-8 text-dark shadow-lg">
             <h3 className="text-2xl font-bold mb-6">{currentLang === 'en' ? 'Send Inquiry' : currentLang === 'fr' ? 'Envoyer une demande' : currentLang === 'es' ? 'Enviar consulta' : 'إرسال استفسار'}</h3>
-            
+
             {formStatus === 'success' && (
               <div className="mb-4 p-3 bg-green-100 text-green-700 rounded-lg">
                 {t.form.success}
@@ -100,49 +125,49 @@ export default function Contact() {
             )}
             {formStatus === 'error' && (
               <div className="mb-4 p-3 bg-red-100 text-red-700 rounded-lg">
-                {currentLang === 'en' ? 'Something went wrong. Please try again.' : 
-                 currentLang === 'fr' ? 'Une erreur est survenue. Veuillez réessayer.' : 
-                 currentLang === 'es' ? 'Algo salió mal. Por favor, intente de nuevo.' : 
+                {currentLang === 'en' ? 'Something went wrong. Please try again.' :
+                 currentLang === 'fr' ? 'Une erreur est survenue. Veuillez réessayer.' :
+                 currentLang === 'es' ? 'Algo salió mal. Por favor, intente de nuevo.' :
                  'حدث خطأ. يرجى المحاولة مرة أخرى.'}
               </div>
             )}
-            
+
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className={`grid md:grid-cols-2 gap-4 ${dir === 'rtl' ? 'md:grid-flow-dense' : ''}`}>
-                <input 
-                  type="text" 
-                  name="name" 
-                  placeholder={t.form.name} 
-                  required 
+                <input
+                  type="text"
+                  name="name"
+                  placeholder={t.form.name}
+                  required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition"
                   aria-label="Your name"
                 />
-                <input 
-                  type="email" 
-                  name="email" 
-                  placeholder={t.form.email} 
-                  required 
+                <input
+                  type="email"
+                  name="email"
+                  placeholder={t.form.email}
+                  required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition"
                   aria-label="Your email"
                 />
               </div>
-              <input 
-                type="text" 
-                name="company" 
-                placeholder={t.form.company} 
+              <input
+                type="text"
+                name="company"
+                placeholder={t.form.company}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition"
                 aria-label="Company name"
               />
-              <textarea 
-                name="message" 
-                rows="4" 
-                placeholder={t.form.message} 
-                required 
+              <textarea
+                name="message"
+                rows="4"
+                placeholder={t.form.message}
+                required
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition"
                 aria-label="Your message"
               ></textarea>
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 disabled={isSubmitting}
                 className={`w-full btn-primary text-center ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
               >
