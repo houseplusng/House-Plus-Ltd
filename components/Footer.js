@@ -30,6 +30,8 @@ export default function Footer() {
               <li><Link href={`/${currentLang}`} className="hover:text-primary transition">{translations[currentLang]?.nav.home}</Link></li>
               <li><Link href={`/${currentLang}/products`} className="hover:text-primary transition">{translations[currentLang]?.nav.products}</Link></li>
               <li><Link href={`/${currentLang}/about`} className="hover:text-primary transition">{translations[currentLang]?.nav.about}</Link></li>
+              <li><Link href={`/${currentLang}/blog`} className="hover:text-primary transition">{translations[currentLang]?.nav.blog}</Link></li>
+              <li><Link href={`/${currentLang}/faq`} className="hover:text-primary transition">{translations[currentLang]?.nav.faq}</Link></li>
               <li><Link href={`/${currentLang}/contact`} className="hover:text-primary transition">{translations[currentLang]?.nav.contact}</Link></li>
             </ul>
           </div>
@@ -59,7 +61,7 @@ export default function Footer() {
                 <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <a href="https://wa.me/8615578119543" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition">+86 15578119543</a>
+                <a href="tel:+8615578119543" className="hover:text-primary transition">+86 155 7811 9543</a>
               </li>
               <li className="flex items-center gap-2">
                 <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
