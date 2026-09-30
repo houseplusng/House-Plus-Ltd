@@ -4,21 +4,25 @@ import { translations } from '@/lib/i18n';
 export async function generateMetadata({ params }) {
   const { lang } = params;
   const t = translations[lang]?.contact || translations.en.contact;
-  
+
   return {
-    title: `Contact Us | HousePlus Ltd`,
-    description: `Get in touch with HousePlus Ltd for inquiries, quotes, or partnership opportunities. ${t.email} | ${t.phone}`,
+    title: `${t.hero.title} | HousePlus Ltd`,
+    description: t.hero.subtitle,
+    robots: 'index, follow',
   };
 }
 
-export default function ContactPage() {
+export default function ContactPage({ params }) {
+  const { lang } = params;
+  const t = translations[lang]?.contact || translations.en.contact;
+
   return (
     <>
       <div className="bg-gradient-to-r from-primary/5 to-secondary/5 py-16">
         <div className="container-custom text-center">
-          <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
+          <h1 className="text-4xl font-bold mb-4">{t.hero.title}</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Get in touch with our team for inquiries, quotes, or partnership opportunities
+            {t.hero.subtitle}
           </p>
         </div>
       </div>
