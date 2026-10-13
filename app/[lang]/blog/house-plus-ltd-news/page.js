@@ -26,7 +26,7 @@ export default function HousePlusNewsPage({ params }) {
       intro: 'Who We Are',
       introText: 'HousePlus Ltd is a premier manufacturer specializing in household appliances, solar products, and 3C electronics. With over 15 years of industry experience, we have established ourselves as a trusted OEM/ODM partner for brands across the globe.',
       quality: 'Our Commitment to Quality',
-      qualityText: 'Quality is at the heart of everything we do. Our 20,000㎡ smart factory is equipped with state-of-the-art manufacturing equipment and staffed by over 200 skilled professionals. Every product undergoes rigorous testing to ensure it meets international standards including ISO9001, CE, RoHS, and FCC certifications.',
+      qualityText: 'Quality is at the heart of everything we do. Our 20,000㎡ smart factory is equipped with state-of-the-art manufacturing equipment and staffed by over 500 skilled professionals. Every product undergoes rigorous testing to ensure it meets international standards including ISO9001, CE, RoHS, and FCC certifications.',
       products: 'Our Product Lines',
       productList: [
         'Smart Home Appliances: Air fryers, vacuum cleaners, blenders, electric kettles, and food processors.',
@@ -52,7 +52,7 @@ export default function HousePlusNewsPage({ params }) {
       intro: 'Qui sommes-nous',
       introText: 'HousePlus Ltd est un fabricant de premier plan spécialisé dans les appareils électroménagers, les produits solaires et l\'électronique 3C. Avec plus de 15 ans d\'expérience, nous sommes un partenaire OEM/ODM de confiance pour les marques du monde entier.',
       quality: 'Notre engagement pour la qualité',
-      qualityText: 'La qualité est au cœur de tout ce que nous faisons. Notre usine intelligente de 20 000㎡ est équipée d\'équipements de pointe et emploie plus de 200 professionnels qualifiés.',
+      qualityText: 'La qualité est au cœur de tout ce que nous faisons. Notre usine intelligente de 20 000㎡ est équipée d\'équipements de pointe et emploie plus de 500 professionnels qualifiés.',
       products: 'Nos gammes de produits',
       productList: [
         'Appareils électroménagers intelligents : Friteuses à air, aspirateurs, blenders, bouilloires électriques.',
@@ -78,7 +78,7 @@ export default function HousePlusNewsPage({ params }) {
       intro: 'Quiénes Somos',
       introText: 'HousePlus Ltd es un fabricante líder especializado en electrodomésticos, productos solares y electrónica 3C. Con más de 15 años de experiencia, somos un socio OEM/ODM de confianza para marcas de todo el mundo.',
       quality: 'Nuestro Compromiso con la Calidad',
-      qualityText: 'La calidad está en el corazón de todo lo que hacemos. Nuestra fábrica inteligente de 20,000㎡ está equipada con tecnología de punta y cuenta con más de 200 profesionales calificados.',
+      qualityText: 'La calidad está en el corazón de todo lo que hacemos. Nuestra fábrica inteligente de 20,000㎡ está equipada con tecnología de punta y cuenta con más de 500 profesionales calificados.',
       products: 'Nuestras Líneas de Productos',
       productList: [
         'Electrodomésticos Inteligentes: Freidoras de aire, aspiradoras, licuadoras, hervidores eléctricos.',
@@ -104,7 +104,7 @@ export default function HousePlusNewsPage({ params }) {
       intro: 'من نحن',
       introText: 'هاوس بلس المحدودة هي شركة تصنيع رائدة متخصصة في الأجهزة المنزلية والمنتجات الشمسية والإلكترونيات 3C. مع أكثر من 15 عامًا من الخبرة، أنشأنا أنفسنا كشريك OEM/ODM موثوق للعلامات التجارية حول العالم.',
       quality: 'التزامنا بالجودة',
-      qualityText: 'الجودة هي جوهر كل ما نقوم به. مصنعنا الذكي بمساحة 20,000 متر مربع مجهز بأحدث معدات التصنيع ويوظف أكثر من 200 متخصص ماهر.',
+      qualityText: 'الجودة هي جوهر كل ما نقوم به. مصنعنا الذكي بمساحة 20,000 متر مربع مجهز بأحدث معدات التصنيع ويوظف أكثر من 500 متخصص ماهر.',
       products: 'خطوط منتجاتنا',
       productList: [
         'الأجهزة المنزلية الذكية: مقلايات هوائية، مكانس كهربائية، خلاطات، غلايات كهربائية.',
