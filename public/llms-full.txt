@@ -1,0 +1,56 @@
+# HousePlus Ltd — Full Context for LLMs / AI Crawlers
+
+HousePlus Ltd (https://www.houseplus.ltd) is a HousePlus brand operating under HousePlus Group.
+HousePlus Group is the parent company and brand owner. Its primary brand site is https://www.houseplus-ch.com.
+This English-first brand/affiliate site is dedicated to wholesale, OEM/ODM and private-label buyers.
+
+## Corporate relationship (entity graph)
+- HousePlus Ltd is a brand/affiliate of HousePlus Group.
+- Parent organization: HousePlus Group — https://www.houseplus-ch.com
+- Brand: HousePlus
+- HousePlus Ltd operates the group's Zhongshan (Guangdong, China) smart manufacturing facility.
+
+## Company facts
+- Founded: 2010
+- Employees: 500+
+- Factory: 20,000 m² smart factory, No. 29 Kangsheng Road, Huangpu Town, Zhongshan, Guangdong, China (postal code 528429)
+- Reach: 53+ countries served
+- Customers: 441+ wholesale / distribution clients
+- Certifications: ISO9001, CE, RoHS, FCC, IEC
+
+## What HousePlus Ltd does
+HousePlus Ltd designs and manufactures OEM/ODM and private-label products across three categories:
+- Solar power systems (solar panels, inverters, lithium battery storage, 5kW solar system cost guidance)
+- Home appliances (smart household appliances)
+- 3C electronics
+The site provides factory-direct pricing, custom branding, and full OEM/ODM project support.
+
+## Contact
+- Email: jack@houseplus-ch.com
+- Phone / WhatsApp: +86 155 7811 9543
+- WeChat: JackHousePlus
+- Address: No. 29 Kangsheng Road, Huangpu Town, Zhongshan, Guangdong, China 528429
+- Business hours: Mon–Fri 08:00–18:00 (GMT+8)
+
+## Key pages (English)
+- Home: https://www.houseplus.ltd/en
+- About: https://www.houseplus.ltd/en/about
+- Products: https://www.houseplus.ltd/en/products
+- FAQ: https://www.houseplus.ltd/en/faq
+- Contact: https://www.houseplus.ltd/en/contact
+- Blog: https://www.houseplus.ltd/en/blog
+
+## Blog topics (English)
+- Why choose an OEM manufacturer in China
+- Solar energy trends 2025
+- Smart home appliances guide
+- 5kW solar system cost
+- Lithium battery manufacturers
+- HousePlus Ltd company news
+- HousePlus Ltd as a HousePlus brand
+
+## Localized versions
+The site is available in English (en), French (fr), Spanish (es) and Arabic (ar). Same page paths, e.g. /fr/about, /es/contact, /ar/faq.
+
+## Primary brand site (parent)
+https://www.houseplus-ch.com — HousePlus Group's main brand site (multi-language: EN/ES/DE/FR/AR).
