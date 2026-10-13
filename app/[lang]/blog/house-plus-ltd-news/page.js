@@ -36,7 +36,7 @@ export default function HousePlusNewsPage({ params }) {
       whyChoose: 'Why Partner with HousePlus Ltd?',
       advantages: [
         '15+ Years of Experience: Proven track record in manufacturing excellence.',
-        '50+ Countries Served: Trusted by partners worldwide.',
+        '53+ Countries Served: Trusted by partners worldwide.',
         '98% On-time Delivery: Reliable supply chain management.',
         'Custom OEM/ODM Services: Tailored solutions for your brand.',
         'Competitive Pricing: Factory direct pricing with no middlemen.',
@@ -62,7 +62,7 @@ export default function HousePlusNewsPage({ params }) {
       whyChoose: 'Pourquoi choisir HousePlus Ltd ?',
       advantages: [
         '15+ années d\'expérience : Excellence éprouvée en fabrication.',
-        '50+ pays desservis : Fiable par des partenaires mondiaux.',
+        '53+ pays desservis : Fiable par des partenaires mondiaux.',
         '98% de livraison à temps : Gestion de chaîne d\'approvisionnement fiable.',
         'Services OEM/ODM personnalisés : Solutions sur mesure pour votre marque.',
         'Prix compétitifs : Prix direct usine sans intermédiaires.',
@@ -88,7 +88,7 @@ export default function HousePlusNewsPage({ params }) {
       whyChoose: '¿Por qué asociarse con HousePlus Ltd?',
       advantages: [
         '15+ Años de Experiencia: Trayectoria comprobada en excelencia de fabricación.',
-        '50+ Países Atendidos: Confiable para socios en todo el mundo.',
+        '53+ Países Atendidos: Confiable para socios en todo el mundo.',
         '98% de Entrega a Tiempo: Gestión de cadena de suministro confiable.',
         'Servicios OEM/ODM Personalizados: Soluciones a medida para su marca.',
         'Precios Competitivos: Precio directo de fábrica sin intermediarios.',
@@ -114,7 +114,7 @@ export default function HousePlusNewsPage({ params }) {
       whyChoose: 'لماذا تختار هاوس بلس المحدودة؟',
       advantages: [
         '١٥+ سنة خبرة: سجل حافل في التميز التصنيعي.',
-        '٥٠+ دولة مخدومة: موثوق من قبل شركاء حول العالم.',
+        '٥٣+ دولة مخدومة: موثوق من قبل شركاء حول العالم.',
         '٩٨٪ تسليم في الوقت المحدد: إدارة سلسلة توريد موثوقة.',
         'خدمات OEM/ODM مخصصة: حلول مصممة خصيصًا لعلامتك التجارية.',
         'أسعار تنافسية: أسعار مباشرة من المصنع بدون وسطاء.',
