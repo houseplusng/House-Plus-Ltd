@@ -78,7 +78,7 @@ export default function StructuredData({ lang }) {
 
     description: t.description,
 
-    email: 'jack@houseplus-ch.com',
+    email: 'jack@houseplus.ltd',
 
     telephone: '+8615578119543',
 
@@ -140,7 +140,7 @@ export default function StructuredData({ lang }) {
 
     telephone: '+8615578119543',
 
-    email: 'jack@houseplus-ch.com',
+    email: 'jack@houseplus.ltd',
 
     address: {
 
@@ -264,7 +264,7 @@ export default function StructuredData({ lang }) {
 
       name: 'HousePlus Ltd',
 
-      email: 'jack@houseplus-ch.com',
+      email: 'jack@houseplus.ltd',
 
       telephone: '+8615578119543',
 
@@ -290,7 +290,7 @@ export default function StructuredData({ lang }) {
 
         telephone: '+8615578119543',
 
-        email: 'jack@houseplus-ch.com',
+        email: 'jack@houseplus.ltd',
 
         contactType: 'customer service',
 
