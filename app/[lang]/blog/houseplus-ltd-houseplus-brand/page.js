@@ -37,7 +37,7 @@ export default function HousePlusBrandPage({ params }) {
       whyChoose: 'Why HousePlus Group',
       advantages: [
         '15+ Years of Experience in manufacturing excellence.',
-        '50+ Countries Served worldwide.',
+        '53+ Countries Served worldwide.',
         '98% On-time Delivery with reliable supply-chain management.',
         'Custom OEM/ODM Services tailored to your brand.',
         'Competitive Factory-Direct Pricing with no middlemen.',
@@ -66,7 +66,7 @@ export default function HousePlusBrandPage({ params }) {
       whyChoose: 'Pourquoi HousePlus Group',
       advantages: [
         '15+ années d\'expérience dans l\'excellence manufacturière.',
-        '50+ pays desservis dans le monde.',
+        '53+ pays desservis dans le monde.',
         '98% de livraison à temps avec une gestion fiable de la chaîne d\'approvisionnement.',
         'Services OEM/ODM personnalisés adaptés à votre marque.',
         'Prix compétitifs usine directe, sans intermédiaire.',
@@ -95,7 +95,7 @@ export default function HousePlusBrandPage({ params }) {
       whyChoose: 'Por qué HousePlus Group',
       advantages: [
         '15+ años de experiencia en excelencia manufacturera.',
-        '50+ países atendidos en todo el mundo.',
+        '53+ países atendidos en todo el mundo.',
         '98% de entregas a tiempo con gestión fiable de la cadena de suministro.',
         'Servicios OEM/ODM personalizados adaptados a su marca.',
         'Precios competitivos de fábrica directa, sin intermediarios.',
@@ -124,7 +124,7 @@ export default function HousePlusBrandPage({ params }) {
       whyChoose: 'لماذا HousePlus Group',
       advantages: [
         'أكثر من 15 عاماً من الخبرة في التميز التصنيعي.',
-        'خدمة أكثر من 50 دولة حول العالم.',
+        'خدمة أكثر من 53 دولة حول العالم.',
         '98% تسليم في الوقت المحدد مع إدارة موثوقة لسلسلة التوريد.',
         'خدمات OEM/ODM مخصصة مصممة لعلامتك التجارية.',
         'أسعار تنافسية مباشرة من المصنع دون وسطاء.',
