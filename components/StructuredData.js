@@ -112,8 +112,6 @@ export default function StructuredData({ lang }) {
 
     sameAs: [
 
-      'https://www.houseplus-ch.com',
-
       'https://wa.me/8615578119543',
 
       'https://www.facebook.com/houseplusgroup',
