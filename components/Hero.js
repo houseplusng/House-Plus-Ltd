@@ -76,7 +76,7 @@ export default function Hero() {
                  currentLang === 'es' ? 'Fábrica HousePlus Ltd' : 
                  'مصنع هاوس بلس المحدودة'}
               </p>
-              <p className="text-xs text-gray-400 mt-1">20,000㎡ Smart Factory | 200+ Professionals</p>
+              <p className="text-xs text-gray-400 mt-1">20,000㎡ Smart Factory | 500+ Professionals</p>
             </div>
           </div>
         </div>
