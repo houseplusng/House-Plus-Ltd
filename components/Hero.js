@@ -12,10 +12,10 @@ export default function Hero() {
   const dir = translations[currentLang]?.dir || 'ltr';
 
   const trustBadges = {
-    en: ['500+ Projects', '50+ Countries', '15+ Years', '24/7 Support'],
-    fr: ['500+ Projets', '50+ Pays', '15+ Ans', 'Support 24/7'],
-    es: ['500+ Proyectos', '50+ Países', '15+ Años', 'Soporte 24/7'],
-    ar: ['٥٠٠+ مشروع', '٥٠+ دولة', '١٥+ سنة', 'دعم ٢٤/٧'],
+    en: ['500+ Projects', '53+ Countries', '15+ Years', '24/7 Support'],
+    fr: ['500+ Projets', '53+ Pays', '15+ Ans', 'Support 24/7'],
+    es: ['500+ Proyectos', '53+ Países', '15+ Años', 'Soporte 24/7'],
+    ar: ['٥٠٠+ مشروع', '٥٣+ دولة', '١٥+ سنة', 'دعم ٢٤/٧'],
   };
 
   const badges = trustBadges[currentLang] || trustBadges.en;
