@@ -134,7 +134,7 @@ export default function StructuredData({ lang }) {
 
 
 
-    disambiguatingDescription: 'Affiliated site operating under HousePlus Group; not the group main site. The main site is houseplus-ch.com.',
+    disambiguatingDescription: 'Affiliated site operating under HousePlus Group; not the group’s main site. The main site is houseplus-ch.com.',
 
 
 
