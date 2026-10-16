@@ -27,7 +27,7 @@ export async function generateMetadata({ params }) {
       title: t.title,
       description: t.description,
       url: `${siteUrl}/${lang}`,
-      siteName: 'House Plus Ltd',
+      siteName: 'HousePlus Ltd',
       locale: lang === 'ar' ? 'ar_AE' : `${lang}_${lang === 'en' ? 'US' : lang === 'fr' ? 'FR' : 'ES'}`,
       type: 'website',
       images: [
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }) {
           url: `${siteUrl}/images/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: 'House Plus Ltd - Professional Manufacturer',
+          alt: 'HousePlus Ltd - Professional Manufacturer',
         },
       ],
     },
