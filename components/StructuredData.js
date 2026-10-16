@@ -111,6 +111,7 @@ export default function StructuredData({ lang }) {
 
 
       '@type': 'Person',
+      '@id': 'https://www.houseplus-ch.com/#person-jack-hu',
 
 
 
@@ -495,89 +496,9 @@ export default function StructuredData({ lang }) {
 
 
     mainEntity: {
-
-
-
       '@type': 'Organization',
-
-
-
+      '@id': 'https://www.houseplus.ltd/#organization',
       name: 'HousePlus Ltd',
-
-
-
-      email: 'jack@houseplus.ltd',
-
-
-
-      telephone: '+8615578119543',
-
-
-
-      address: {
-
-
-
-        '@type': 'PostalAddress',
-
-
-
-        streetAddress: 'No. 29 Kangsheng Road, Huangpu Town',
-
-
-
-        addressLocality: 'Zhongshan',
-
-
-
-        addressRegion: 'Guangdong',
-
-
-
-        addressCountry: 'CN',
-
-
-
-        postalCode: '528429',
-
-
-
-      },
-
-
-
-      contactPoint: {
-
-
-
-        '@type': 'ContactPoint',
-
-
-
-        telephone: '+8615578119543',
-
-
-
-        email: 'jack@houseplus.ltd',
-
-
-
-        contactType: 'customer service',
-
-
-
-        areaServed: 'Worldwide',
-
-
-
-        availableLanguage: ['English', 'French', 'Spanish', 'Arabic'],
-
-
-
-      },
-
-
-
     },
 
 
